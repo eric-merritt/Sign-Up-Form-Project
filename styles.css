@@ -22,7 +22,7 @@ body {
 
 .bg-img {
     height: 100vh;
-    width: 70%;
+    width: 100%;
     position: relative;
     background: no-repeat url("./images/14237502_5438849.jpg");
     background-position: center;
@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     flex: 1 1 100%;
-    width: 37%;
+    width: 30%;
     position: absolute;
     bottom: 1vh;
     justify-content: center;   
@@ -56,7 +56,7 @@ body {
 
 .form-container {
     height: 100%;
-    width: 63%;
+    width: 70%;
     position: absolute;
     right: 0px;
     top: 0px;
@@ -73,11 +73,11 @@ body {
     width: 100%;
     background-color: #f8f7f7; 
     float: right;
-    padding-left: 40px;
+    padding-left: 70px;
     padding-right: 40px;
-    padding-top: 140px;
-    padding-bottom: 32px;
-    font-weight: 800; 
+    padding-top: 100px; 
+    padding-bottom: 20px; 
+    font-weight: bold; 
     font-size: 22px;
 }
 
@@ -93,16 +93,17 @@ body {
 
 .input-header p {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px; 
     opacity: .8;
+    width: 30%; 
 }
 
 section.inputs {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 70px;
+    padding-bottom: 15px;
     background-color: white;
     box-shadow: 1px 6px 6px -3px lightgray;    
     position: relative;
@@ -112,7 +113,7 @@ section.inputs {
 .user_name,
 .contact_info,
 .password {
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
@@ -128,14 +129,14 @@ section.inputs {
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
-    width: 50%;
+    width: 75%;
     padding-bottom: 20px;
 }
 
 label {
     font-size: 12px;
     font-weight: 600;
-    width: 80%;
+    width: 60%;
     opacity: .8;
 }
 
@@ -147,7 +148,7 @@ input {
     border-style: solid;
     border-width: 1.2px;
     max-width: 75%;
-    height: 2.25em;    
+    height: 2.25rem;    
 }
 
 input:hover {
@@ -165,24 +166,24 @@ input:valid {
 
 .form-submit {
     height: 100%;
-    padding-left: 40px;
-    background-color: #f8f7f7; 
+    padding-left: 70px;
+    background-color: #f8f7f7;
 }
 
 .button-container {
-    padding-top: 30px;
+    padding-top: 40px;
 
 }
 
 
 button {
-    padding: 15px 50px 15px 50px;
+    padding: 15px 5% 15px 5%;
     background-color: rgb(67, 9, 82, .7);
     box-shadow: 0px 6px 6px -4px black;
     border-style: none;
     color: white;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.25em;
     border-radius: 7px;  
 }
 
@@ -190,11 +191,17 @@ button:hover{
     background: url("images/14237502_5438849.jpg");
 }
 
+.log-in{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
 .log-in p {
     padding-top: 15px;
     font-weight: 700;
     opacity: .7;
-    display: inline-block;
+    display: inline;
 }
 
 a {
@@ -202,14 +209,13 @@ a {
     opacity: 1;
     color: rgb(67, 9, 82, .7);
     font-weight: 700;
-    padding-left: 5px;
-
+    padding-left: 10px;
 }
 
 div.logo {
     height: 140px;
     background-color:rgba(209, 201, 201, 0.4);
-    width: 37%;
+    width: 30%;
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
