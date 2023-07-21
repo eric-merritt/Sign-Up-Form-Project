@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: PressStart2P;
-    src: url("../Sign-Up-Form-Project/PressStart2P-Regular.ttf") format('truetype');
+    src: url('./PressStart2P-Regular.ttf');
 }
 
 
