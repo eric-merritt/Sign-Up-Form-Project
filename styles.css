@@ -1,0 +1,251 @@
+body {
+    appearance: none;
+    background-color: rgb(30, 31, 31);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1; 
+    overflow: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: url(/PressStart2P-Regular.ttf);
+}
+
+
+
+.bg-img {
+    height: 100vh;
+    width: 70%;
+    position: relative;
+    background: no-repeat url("./images/14237502_5438849.jpg");
+    background-position: center;
+    margin: 0px auto;
+}
+
+.caption-cont {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    width: 37%;
+    position: absolute;
+    bottom: 1vh;
+    justify-content: center;   
+    
+}
+
+.bg-caption {
+    height: 100%;
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+
+.bg-link {
+    height: 100%;
+    color: white;
+    font-size: 13px;
+ 
+}
+
+.form-container {
+    height: 100%;
+    width: 63%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+:link {
+    color: white;
+}
+
+.p-container {
+    width: 100%;
+    background-color: #f8f7f7; 
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 140px;
+    padding-bottom: 32px;
+    font-weight: 800; 
+    font-size: 22px;
+}
+
+.heading-text p {
+    float: left;
+    max-width: 55ch;  
+}
+
+
+.input-header {
+    width: 100%;
+}
+
+.input-header p {
+    font-weight: 700;
+    font-size: 20px;
+    opacity: .8;
+}
+
+section.inputs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    background-color: white;
+    box-shadow: 1px 6px 6px -3px lightgray;    
+    position: relative;
+
+}
+
+.user_name,
+.contact_info,
+.password {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+}
+
+.first_name,
+.last_name,
+.phone_number,
+.email,
+.password_initial,
+.password_confirm {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+    width: 80%;
+    opacity: .8;
+}
+
+input {
+    appearance: none;
+    outline: none;
+    border-radius: 3px;
+    border-color: #dddada;
+    border-style: solid;
+    border-width: 1.2px;
+    max-width: 75%;
+    height: 2.25em;    
+}
+
+input:hover {
+    border-color: blue;
+    box-shadow: 2px 2px 6px -1px gray;
+}
+
+input:focus:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border: 2px solid lightgreen;
+}
+
+.form-submit {
+    height: 100%;
+    padding-left: 40px;
+    background-color: #f8f7f7; 
+}
+
+.button-container {
+    padding-top: 30px;
+
+}
+
+
+button {
+    padding: 15px 50px 15px 50px;
+    background-color: rgb(67, 9, 82, .7);
+    box-shadow: 0px 6px 6px -4px black;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 7px;  
+}
+
+button:hover{
+    background: url('/images/14237502_5438849.jpg');
+}
+
+.log-in p {
+    padding-top: 15px;
+    font-weight: 700;
+    opacity: .7;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    opacity: 1;
+    color: rgb(67, 9, 82, .7);
+    font-weight: 700;
+    padding-left: 5px;
+
+}
+
+div.logo {
+    height: 140px;
+    background-color:rgba(209, 201, 201, 0.4);
+    width: 37%;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 210px;
+    justify-content: space-evenly;
+    padding: 2vw;
+}
+
+img.logo-svg {
+    width: 25%;
+    flex: 1 1 100%;
+}
+
+p.logo-label {
+    font-family: PressStart2P;
+    height: 100%;
+    font-size: 4vw;
+    flex: 1 1 100%;
+}
+
+.mismatch + span::after{
+    content: 'Passwords do not match';
+    color: red;
+    font-size: 12px;
+
+}
+
+.closeBtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
