@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: PressStart2P;
-    src: url(/PressStart2P-Regular.ttf);
+    src: url("./PressStart2P-Regular.ttf");
 }
 
 
