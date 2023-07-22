@@ -76,11 +76,13 @@ body {
     float: right;
     padding-left: 70px;
     padding-right: 40px;
-    padding-top: 12vh;
-    padding-bottom: 20px; 
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    padding-top: 12vh; 
     font-weight: bold; 
     font-size: 24px;
     flex: 1 1;
+    justify-self: flex-end;
 }
 
 .heading-text p {
@@ -256,4 +258,10 @@ p.logo-label {
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
+  }
+
+  @media (-webkit-device-pixel-ratio: 1.25) {
+    * {
+      zoom: 0.8;
+    }
   }
