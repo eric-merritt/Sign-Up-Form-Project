@@ -74,13 +74,12 @@ body {
     min-width: 66vw;
     background-color: #f8f7f7; 
     float: right;
-    padding-left: 70px;
-    padding-right: 40px;
-    line-height: 1.5em;
-    padding-bottom: 20px;
+    padding-left: 4.375rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.25rem;
     padding-top: 12vh; 
     font-weight: bold; 
-    font-size: 24px;
+    font-size: 1.4rem;
     flex: 1 1;
     justify-self: flex-end;
 }
@@ -97,7 +96,7 @@ body {
 
 .input-header p {
     font-weight: 700;
-    font-size: 22px; 
+    font-size: 1.35rem; 
     opacity: .8;
     width: 30%; 
 }
@@ -106,8 +105,8 @@ section.inputs {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
-    padding-bottom: 15px;
+    padding-left: 4.375rem;
+    padding-bottom: .9375rem;
     background-color: white;
     box-shadow: 1px 6px 6px -3px lightgray;    
     position: relative;
@@ -134,11 +133,11 @@ section.inputs {
     flex-direction: column; 
     flex-wrap: wrap;
     width: 75%;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 label {
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 600;
     width: 60%;
     opacity: .8;
@@ -170,18 +169,18 @@ input:valid {
 
 .form-submit {
     height: 100%;
-    padding-left: 70px;
+    padding-left: 4.375rem;
     background-color: #f8f7f7;
 }
 
 .button-container {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 
 }
 
 
 button {
-    padding: 15px 5% 15px 5%;
+    padding: .9375rem 5% .9375rem 5%;
     background-color: rgb(67, 9, 82, .7);
     box-shadow: 0px 6px 6px -4px black;
     border-style: none;
@@ -197,12 +196,12 @@ button:hover{
 
 .log-in{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-size: 1em;
 }
 
 .log-in p {
-    padding-top: 15px;
+    padding-top: 1.25rem;
     font-weight: 700;
     opacity: .7;
     display: inline;
@@ -210,6 +209,7 @@ button:hover{
 
 a {
     text-decoration: none;
+    text-decoration-color: none;
     opacity: 1;
     color: rgb(67, 9, 82, .7);
     font-weight: 700;
@@ -245,17 +245,17 @@ p.logo-label {
 .mismatch + span::after{
     content: 'Passwords do not match';
     color: red;
-    font-size: 12px;
+    font-size: .75rem;
 
 }
 
 .closeBtn {
-    margin-left: 15px;
+    margin-left: .9375rem;
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 1.375rem;
+    line-height: 1.25rem;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -263,5 +263,6 @@ p.logo-label {
   @media (-webkit-device-pixel-ratio: 1.25) {
     * {
       zoom: 0.8;
+      
     }
   }
